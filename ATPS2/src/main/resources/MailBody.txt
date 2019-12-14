@@ -1,0 +1,14 @@
+
+
+Hi name   
+
+Thank you for creating account in ATpS.Your resgistration is almost
+done.TO use your account in ATS, you need to unlock your account
+using below details.
+
+Temporary Password=password
+
+"http://localhost:9090/ATPS/updatePassword?email={EMAIL}"
+
+Thanks,
+ ATPS Team.

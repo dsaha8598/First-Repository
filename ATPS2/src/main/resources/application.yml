@@ -1,0 +1,38 @@
+#server port configuration
+server:
+  port: 8765
+  
+  #context path configuration
+  servlet:
+    context-path: /ATPS
+  
+  #view resolver configuration
+spring:
+  mvc:
+    view:
+      prefix: /views/
+      suffix: .jsp
+      
+ #data source configuration
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:orcl
+    username: scott
+    password: tiger
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+
+formapp:
+     messages:
+           userName: admin1@gmail.com
+           password: admin1
+           invalid: invalid email or password
+           regFail: registration failed-qa
+           subject1: ATS Notification
+           subject2: Account Password
+           body:    Below is your ATS accoutnt password to login  
+           EmailSuccessMessage: Password hasbeen sent to your Email id
+           EmailErrorMessage: Invalid Email  Id
